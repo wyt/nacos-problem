@@ -1,0 +1,42 @@
+[root@bogon logs]# top
+top - 11:22:29 up 15 days, 21:06,  2 users,  load average: 74.49, 72.00, 63.93
+Tasks: 139 total,   1 running, 137 sleeping,   1 stopped,   0 zombie
+%Cpu(s): 97.2 us,  1.6 sy,  0.0 ni,  0.9 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st
+KiB Mem :  3872672 total,   200780 free,  3200704 used,   471188 buff/cache
+KiB Swap:  1048572 total,   555532 free,   493040 used.   411640 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                                                 
+56623 app       20   0 6432780   2.3g  18028 S 394.7 61.5 153:37.39 java                                                                                                                    
+  947 root      20   0 1100208  24644   4812 S   0.7  0.6 340:52.88 sky-agent                                                                                                               
+ 3758 root      20   0 4378672 481312   6484 S   0.7 12.4 328:35.14 java                                                                                                                    
+ 3793 app       20   0  219272  24600   1092 S   0.7  0.6   2:35.55 redis-server                                                                                                            
+    9 root      20   0       0      0      0 S   0.3  0.0 109:57.84 rcu_sched                                                                                                               
+53325 root       9 -11   87708   1348   1056 S   0.3  0.0   0:03.20 titan_monitor                                                                                                           
+    1 root      20   0  191044   2260   1376 S   0.0  0.1  11:11.69 systemd                                                                                                                 
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.96 kthreadd                                                                                                                
+    3 root      20   0       0      0      0 S   0.0  0.0   5:15.88 ksoftirqd/0                                                                                                             
+    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H                                                                                                            
+    7 root      rt   0       0      0      0 S   0.0  0.0   0:05.60 migration/0                                                                                                             
+    8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh                                                                                                                  
+   10 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lru-add-drain                                                                                                           
+   11 root      rt   0       0      0      0 S   0.0  0.0   0:13.23 watchdog/0                                                                                                              
+   12 root      rt   0       0      0      0 S   0.0  0.0   0:12.47 watchdog/1                                                                                                              
+   13 root      rt   0       0      0      0 S   0.0  0.0   0:05.08 migration/1                                                                                                             
+   14 root      20   0       0      0      0 S   0.0  0.0   8:14.18 ksoftirqd/1                                                                                                             
+   16 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:0H                                                                                                            
+   17 root      rt   0       0      0      0 S   0.0  0.0   0:11.06 watchdog/2                                                                                                              
+   18 root      rt   0       0      0      0 S   0.0  0.0   0:05.45 migration/2                                                                                                             
+   19 root      20   0       0      0      0 S   0.0  0.0   0:25.66 ksoftirqd/2                                                                                                             
+   21 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:0H                                                                                                            
+   22 root      rt   0       0      0      0 S   0.0  0.0   0:11.63 watchdog/3                                                                                                              
+   23 root      rt   0       0      0      0 S   0.0  0.0   0:05.48 migration/3                                                                                                             
+   24 root      20   0       0      0      0 S   0.0  0.0   3:56.33 ksoftirqd/3                                                                                                             
+   26 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/3:0H                                                                                                            
+   28 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kdevtmpfs                                                                                                               
+   29 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns                                                                                                                   
+   30 root      20   0       0      0      0 S   0.0  0.0   0:01.98 khungtaskd                                                                                                              
+   31 root       0 -20       0      0      0 S   0.0  0.0   0:00.02 writeback                                                                                                               
+   32 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kintegrityd                                                                                                             
+   33 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 bioset                                                                                                                  
+   34 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kblockd                                                                                                                 
+   35 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 md   
